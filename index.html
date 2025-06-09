@@ -1,26 +1,32 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>calculadora</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>calculadora</title>
 </head>
 <body>
-    <h1>calculadora JavaScript</h1>
-    <input type="number" id="valor1" placeholder="Digite o 1º número" />
-  <input type="number" id="valor2" placeholder="Digite o 2º número" />
+  <div class="calculadora">
+    <div class="visor" id="visor">0</div>
+    <div class="botoes">
+      <button limpar()>C</button>
+      <button adicionar("/")>:</button>
+      <button adicionar("*")>x</button>
+      <button adicionar("-")>-</button>
 
-  <select name="" id="operacao">
+      <button adicionar("7")>7</button>
+      <button adicionar("8")>8</button>
+      <button adicionar("9")>9</button>
+     <button adicionar("+")>+</button>
 
-    <option value="+">soma(+)</option>
-    <option value="-">subtração(-)</option>
-    <option value="/">divisão(/)</option>
-    <option value="*">multiplicação(*)</option>
-    </select>>
+     <button adicionar("4")>4</button>
+     <button adicionar("5")>5</button>
+     <button adicionar("6")>6</button>
+     <button adicionar("")>+</button>
 
-    <button onclick="calcular()">calcular</button>
-    <div id="resultado"></div>
-    <script src="script.js"></script>
+
+      
+    </div>
+  </div>
 </body>
 </html>
